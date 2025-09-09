@@ -1,0 +1,10 @@
+https://github.com/ShoufaChen/DiffusionDet?tab=readme-ov-file
+https://github.com/ShoufaChen/DiffusionDet/releases/tag/v0.1
+https://github.com/IDEA-Research/DINO/tree/main?tab=readme-ov-file
+https://drive.google.com/drive/folders/1qD5m1NmK0kjE5hh-G17XUX751WsEG-h_
+https://github.com/facebookresearch/detr
+https://github.com/milesial/Pytorch-UNet/tree/master
+https://github.com/hujie-frank/SENet/tree/master?tab=readme-ov-file
+https://github.com/ZFTurbo/Weighted-Boxes-Fusion
+https://github.com/microsoft/Swin-Transformer
+https://huggingface.co/datasets/ibrahimhamamci/DENTEX/tree/main/DENTEX
