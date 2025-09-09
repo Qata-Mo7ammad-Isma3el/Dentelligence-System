@@ -65,7 +65,7 @@ Dentelligence-System/
 
 ## 🧠 System Design
 
-![System Design]\(project_System_Design.png)
+![System Design](project_System_Design.png)
 
 1. **Input Preprocessing**
 
@@ -94,7 +94,9 @@ Dentelligence-System/
 
 * Shows correct localization of upper and lower jaws (quadrants).
 * **AP\@0.50 = 0.999, AP@\[.50:.95] = 0.705**
+
 ![DiffusionDet Results](images/DiffusionDet_Ground_Truth_vs._Predictions.png)
+
 * Quadrant masks (green/red regions)
 * 4-box quadrant splitting
 
@@ -115,9 +117,13 @@ Dentelligence-System/
 
 Both **U-Net** and **SE-U-Net** trained on full-mouth X-rays.
 * **U-Net (epoch\_166): Dice = 0.7173**
+
 ![U-Net 32 Results](images/U_Net_32_Ground_Truth_vs._Prediction.png)
+
 * **SE-U-Net (last\_epoch): Dice = 0.7171**
+
 ![SE-U-Net 32 Results](images/SE_U_Net_32_Ground_Truth_vs._Prediction.png)
+
 * Colored segmentation masks with numbers 1–32.
 
 
@@ -126,9 +132,13 @@ Both **U-Net** and **SE-U-Net** trained on full-mouth X-rays.
 ### 🔹 Tooth Segmentation – Enumeration-9
 Cropped quadrants (8 teeth + “out-of-quadrant” class).
 * **U-Net (last\_epoch): Dice = 0.7882**
+
 ![U-Net 9 Results](images/U_Net_9_Ground_Truth_vs._Prediction.png)
+
 * **SE-U-Net (last\_epoch): Dice = 0.7949**
+
 ![SE-U-Net 9 Results](images/SE_U_Net_9_Ground_Truth_vs._Prediction.png)
+
 * Cropped quadrant segmentation masks with labels 1–9.
 ---
 ### 🔹 Disease Detection
@@ -136,9 +146,13 @@ Cropped quadrants (8 teeth + “out-of-quadrant” class).
 Models trained to detect **Caries, Deep Caries, Periapical Lesions, Impacted Teeth**.
 
 * **DINO-Swin (mAP@\[.50:.95] = 0.534)**
+  
 ![DINO-Swin Results](images/Dino_Swin_Ground_Truth_vs._Predictions.jpg)
+
 * **YOLOv8x (mAP@\[.50:.95] = 0.931, Precision = 0.993, Recall = 0.992)**
+
 ![YOLOv8 Results](images/YOLOv8_Ground_Truth_vs._Predictions.png)
+
 * Disease predictions (green vs red boxes).
 * Ground truth vs model predictions.
 * **WBF Ensemble (mAP@\[.50:.95] = 0.823)**
