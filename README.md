@@ -65,7 +65,7 @@ Dentelligence-System/
 
 ## 🧠 System Design
 
-![System Design](project_System_Design.png)
+![System Design](System_Design.png)
 
 1. **Input Preprocessing**
 
